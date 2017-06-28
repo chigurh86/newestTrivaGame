@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<html lang="en-us">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>Trivia Game</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.1.1.js"></script>
+    <script type="text/javascript" src="assets/javascript/app.js"></script> 
+    <style type="text/css">
+      body{
+        background-image: url("assets/images/stars6.jpg");
+        background-size: cover;
+        background-repeat: repeat-y;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class = "container">
+      <div id = "quiz">
+        <h1>Star Wars Game</h1>
+        <div id="image-holder"><img src="http://placehold.it/350x150"></div>
+
+  <!-- questions -->
+        <div id="question-div">
+          <span id ="timer-text">00:00</span>
+          <span id ="question-text"></span>
+
+        </div>
+
+        <div id="buttons">
+          <button id="btn1"><span id="choice1"></span></button>
+          <button id="btn2"><span id="choice2"></span></button>
+          <button id="btn3"><span id="choice3"></span></button>
+          <button id="btn4"><span id="choice4"></span></button>
+        </div>
+      </div>
+    </div>
+  </body>
+
+</html>

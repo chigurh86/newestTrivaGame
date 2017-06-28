@@ -1,0 +1,77 @@
+.container {
+        margin: 0 auto;
+        text-align: center;
+        
+}
+h1{
+        color: white;
+        margin-bottom: 25px;
+        padding-bottom: 0px;
+}
+#quiz{
+        margin: 0 auto;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        text-align: center;
+        border: solid white 5px;
+        width: 65%;
+        border-radius: 10px;
+}
+#restart{
+    background-color: white;
+    color: black;
+    padding: 10px;
+    border-radius: 5px;
+}
+#restart:hover{
+    background-color: grey; 
+}
+#restart:active{
+    background-color: black; 
+}
+#start{
+    background-color: white;
+    color: black;
+    padding: 10px;
+    border-radius: 5px;
+}
+#start:hover{
+    background-color: grey; 
+}
+#start:active{
+    background-color: black; 
+}
+#btn1, #btn2, #btn3, #btn4{
+        margin: 0 auto;
+        margin-top: 3px;
+        text-align: center;
+        background-color: white;
+        width: 50%;
+        height: 50px;
+}
+
+#question-text{
+        color: white;
+        display: block;
+        font-size: 20px;
+        padding: 15px 0px 25px 0px;
+}
+#timer-text{
+        color: white;
+        display: block;
+        font-size: 20px;
+        padding: 15px 0px 5px 0px;
+}
+#image-holder{
+}
+.final-text{
+    color: white;
+    font-size: 25px;
+}
+.final-div{
+    margin-top: 20px;
+    /*height: 30px;*/
+    margin-bottom: 20px;
+}
